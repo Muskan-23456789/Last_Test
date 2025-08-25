@@ -22,5 +22,5 @@ app.use("/api/blogs", blogRoutes);
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Hello Muskan! Server is running successfully${PORT}`);
+  console.log(`Server is running successfully${PORT}`);
 });
