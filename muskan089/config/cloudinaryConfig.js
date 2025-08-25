@@ -1,8 +1,8 @@
 import multer from 'multer';
 import { CloudinaryStorage } from 'multer-storage-cloudinary';
-import cloudinary from './cloudinaryConfig.js';
+import Cloudinary from './cloudinaryConfig.js';
 
-const storage = new cloudinaryStorage({
+const storage = new CloudinaryStorage({
     cloudinary,
   params: {
     folder: 'uploads',  
